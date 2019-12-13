@@ -24,7 +24,7 @@
     "depends": ["easy_my_coop"],
     "author": "Houssine BAKKALI <houssine@coopiteasy.be>",
     "category": "Cooperative management",
-    'website': "www.coopiteasy.be",
+    'website': "https://coopiteasy.be",
     "description": """
     This module allows to recompute the cooperator number subscription
     it has to be used carefully.
