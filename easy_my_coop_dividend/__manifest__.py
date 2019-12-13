@@ -33,7 +33,7 @@
 
     'author': 'Houssine BAKKALI, <houssine@coopiteasy.be>',
     'license': 'AGPL-3',
-    'version': '9.0.1.0',
+    'version': '9.0.1.0.0',
     'website': "https://coopiteasy.be",
 
     'category': 'Cooperative Management',

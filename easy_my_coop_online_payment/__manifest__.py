@@ -20,7 +20,7 @@
 ##############################################################################
 {
     "name": "Easy My Coop Online Payment",
-    "version": "1.0",
+    "version": "9.0.1.0.0",
     "depends": ["easy_my_coop",
                 "website_payment",
                 "payment_paypal"],
