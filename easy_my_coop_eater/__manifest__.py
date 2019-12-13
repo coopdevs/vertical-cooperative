@@ -20,7 +20,7 @@
 ##############################################################################
 {
     "name": "Easy My Coop Eater/worker",
-    "version": "1.0",
+    "version": "12.0.1.0.0",
     "depends": ["easy_my_coop", "partner_age"],
     "author": "Houssine BAKKALI <houssine@coopiteasy.be>",
     "category": "Cooperative management",
