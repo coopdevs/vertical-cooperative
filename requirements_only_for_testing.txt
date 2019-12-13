@@ -3,7 +3,7 @@
 -e ./setup/easy_my_coop_ch
 -e ./setup/easy_my_coop_fr
 -e ./setup/easy_my_coop_loan
--e ./setup/easy_my_coop_loan_website
 -e ./setup/easy_my_coop_website
+-e ./setup/easy_my_coop_loan_website
 -e ./setup/partner_age
 -e ./setup/theme_light
