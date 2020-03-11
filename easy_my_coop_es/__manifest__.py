@@ -1,6 +1,6 @@
 {
     'name': "Easy My Coop Spain",
-    'version': '12.0.0.0.2',
+    'version': '12.0.0.0.3',
     'depends': ['easy_my_coop', 'easy_my_coop_website'],
     'author': "Coopdevs Treball SCCL",
     'category': "Cooperative management",

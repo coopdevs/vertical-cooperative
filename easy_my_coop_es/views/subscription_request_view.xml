@@ -8,9 +8,6 @@
             <field name="lastname" position="after">
                 <field name="vat"/>
             </field>
-            <field name="subscription_amount" position="after">
-                <field name="voluntary_contribution"/>
-            </field>
         </field>
     </record>
 </odoo>

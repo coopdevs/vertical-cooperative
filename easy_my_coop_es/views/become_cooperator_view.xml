@@ -13,14 +13,6 @@
             <xpath expr="//div[@name='share_div']" position="attributes">
                 <attribute name="hidden">1</attribute>
             </xpath>
-            <xpath expr="//div[@name='share_div']" position="after">
-                <div t-attf-class="form-group">
-                    <label class="col-md-3 col-sm-4 control-label" for="voluntary_contribution">Voluntary contribution</label>
-                    <div class="col-md-7 col-sm-8 bottom-line" style="padding-bottom:20px">
-                        <input type="number" class="form-control" name="voluntary_contribution"/>
-                    </div>
-                </div>
-            </xpath>
         </template>
     </data>
 </odoo>
