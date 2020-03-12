@@ -8,6 +8,7 @@
             <field name="lastname" position="after">
                 <field name="vat"/>
             </field>
+            <field name="company_register_number" position="replace"/>
         </field>
     </record>
 </odoo>
