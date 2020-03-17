@@ -16,7 +16,7 @@
                 </div>
             </xpath>
             <!-- Remove -/+ share input -->
-            <xpath expr="//*[@id='wrap']/div[2]/div/div/form/div[24]" position="replace"/>
+            <xpath expr="//*[@id='wrap']/div[2]/div/div/form/div[23]" position="replace"/>
         </template>
     </data>
 </odoo>
