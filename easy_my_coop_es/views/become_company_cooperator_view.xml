@@ -5,6 +5,8 @@
             <xpath expr="//label[@for='company_register_number']/.." position="attributes">
                 <attribute name="hidden">1</attribute>
             </xpath>
+            <!-- Remove Company type field -->
+            <xpath expr="//label[@for='company_type']/.." position="replace"/>
             <xpath expr="//label[@for='iban']/.." position="after">
                 <div t-attf-class="form-group #{error and 'vat' in error and 'has-error' or ''}">
                     <label class="col-md-3 col-sm-4 control-label" for="vat">VAT</label>
