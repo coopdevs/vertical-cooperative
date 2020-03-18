@@ -2,9 +2,7 @@
 <odoo>
     <data>
         <template id="become_company_cooperator_es" inherit_id="easy_my_coop_website.becomecompanycooperator" name="Become company cooperator">
-            <xpath expr="//label[@for='company_register_number']/.." position="attributes">
-                <attribute name="hidden">1</attribute>
-            </xpath>
+            <xpath expr="//label[@for='company_register_number']/.." position="replace"/>
             <!-- Remove Company type field -->
             <xpath expr="//label[@for='company_type']/.." position="replace"/>
             <xpath expr="//label[@for='iban']/.." position="after">
@@ -16,7 +14,7 @@
                 </div>
             </xpath>
             <!-- Hide -/+ share input -->
-            <xpath expr="//*[@id='wrap']/div[2]/div/div/form/div[23]" position="attributes">
+            <xpath expr="//*[@id='wrap']/div[2]/div/div/form/div[22]" position="attributes">
                 <attribute name="hidden">1</attribute>
             </xpath>
         </template>
