@@ -1,6 +1,6 @@
 {
     'name': "Easy My Coop Spain",
-    'version': '12.0.0.0.10',
+    'version': '12.0.0.0.11',
     'depends': [
         'easy_my_coop',
         'easy_my_coop_website'
