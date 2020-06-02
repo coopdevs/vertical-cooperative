@@ -4,8 +4,10 @@
 
 import json
 from datetime import timedelta
+
 import odoo
 from odoo.fields import Date
+
 from odoo.addons.base_rest.controllers.main import _PseudoCollection
 from odoo.addons.component.core import WorkContext
 
@@ -74,9 +76,8 @@ class TestSRController(BaseEMCRestCase):
         content = self.http_get_content(route)
         self.assertIn(self.demo_request_1_dict, content["rows"])
 
-        route = "/api/subscription-request?date_from=%s&date_to=%s" % (
-            date_from,
-            date_to,
+        route = "/api/subscription-request?date_from={}&date_to={}".format(
+            date_from, date_to
         )
         content = self.http_get_content(route)
         self.assertIn(self.demo_request_1_dict, content["rows"])
