@@ -17,7 +17,7 @@
     "summary": """
         Open Easy My Coop to the world: RESTful API.
     """,
-    "data": ["data/sequence.xml"],
+    "data": ["data/sequences.xml"],
     "demo": ["demo/demo.xml"],
     "installable": True,
     "application": False,
