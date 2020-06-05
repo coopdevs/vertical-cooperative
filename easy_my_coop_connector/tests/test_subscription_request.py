@@ -109,3 +109,18 @@ class TestCase(TransactionCase):
             SubscriptionRequest.backend_read(external_id)
 
         self.assertEquals(srequest.name, "Robin Des Bois")
+
+    def test_validate_request(self):
+        srequest = self.browse_ref("easy_my_coop.subscription_request_1_demo")
+        with patch.object(requests, "post") as mock_get:
+            mock_get.return_value = mock_response = Mock()
+            mock_response.status_code = 200
+            mock_response.content = dict_to_dump(GET_RESULT)
+
+            srequest.validate_subscription_request()
+
+        self.assertEquals(srequest.state, "done")
+        self.assertTrue(len(srequest.capital_release_request) > 0)
+        # todo test invoice bindings
+
+    # todo test 400
