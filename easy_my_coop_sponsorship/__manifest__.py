@@ -1,6 +1,6 @@
 {
     'name': "Odoo Sponsorship module for Easy My Coop cooperative addons",
-    'version': '12.0.0.0.1',
+    'version': '12.0.0.0.2',
     'depends': ['easy_my_coop'],
     'author': "Coopdevs Treball SCCL",
     'website': 'https://coopdevs.org',
