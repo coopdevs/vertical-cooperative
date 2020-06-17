@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+    <record id="view_convert_to_member" model="ir.ui.view">
+      <field name="name">Convert to member</field>
+      <field name="model">subscription.upgrade.sponsee</field>
+      <field name="arch" type="xml">
+        <form string="Convert touui member">
+          <p class="oe_grey">
+            Convert to member.
+          </p>
+          <group>
+            <field name="partner_id"/>
+            <field name="share_product_id"/>
+            <field name="ordered_parts"/>
+            <field name="start_date"/>
+          </group>
+          <footer>
+            <button name="upgrade" string="Upgrade partner"  type="object" class="btn-primary"/>
+            <button string="Cancel" class="btn-default" special="cancel"/>
+          </footer>
+        </form>
+      </field>
+    </record>
+
+    <record id="action_view_convert_to_member" model="ir.actions.act_window">
+      <field name="name">Convert to member</field>
+      <field name="type">ir.actions.act_window</field>
+      <field name="res_model">subscription.upgrade.sponsee</field>
+        <field name="view_id" ref="view_convert_to_member"/>
+      <field name="target">new</field>
+    </record>
+  </data>
+</odoo>

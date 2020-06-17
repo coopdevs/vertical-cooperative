@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <menuitem name="Convert to member" id="menu_easy_my_coop_convert_to_member" action="action_view_convert_to_member" parent="easy_my_coop.menu_easy_my_coop_main_coop" sequence="310" />
+</odoo>
