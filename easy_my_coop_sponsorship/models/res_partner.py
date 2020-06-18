@@ -5,7 +5,7 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     sponsee_ids = fields.One2many(
-        'subscription.request',
+        'res.partner',
         'sponsor_id',
         string='Sponsees',
         readonly=True
