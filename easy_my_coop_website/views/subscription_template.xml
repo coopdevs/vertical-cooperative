@@ -409,6 +409,7 @@
                                         class="col-md-3 col-sm-4 control-label"
                                         for="zip_code"
                                     >City
+                                    </label>
                                     <div class="col-md-7 col-sm-8">
                                         <table>
                                             <tr>
