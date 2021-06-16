@@ -89,16 +89,16 @@
                                 class="form-horizontal mt32"
                                 enctype="multipart/form-data"
                             >
-                              <div name="crsf_token_container">
-                                <p style="color:red;">
-                                    <t t-esc="error_msg" />
-                                </p>
-                                <input
-                                    type="hidden"
-                                    name="csrf_token"
-                                    t-att-value="request.csrf_token()"
-                                />
-
+                                <div name="crsf_token_container">
+                                    <p style="color:red;">
+                                        <t t-esc="error_msg" />
+                                    </p>
+                                    <input
+                                        type="hidden"
+                                        name="csrf_token"
+                                        t-att-value="request.csrf_token()"
+                                    />
+                                </div>
                                 <div 
                                     t-attf-class="form-group"
                                     name="my_account_link_container"
